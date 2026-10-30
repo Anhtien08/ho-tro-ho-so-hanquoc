@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-primary: #30359A;
+    --color-primary-dark: #161984;
+    --color-secondary: #454BC0;
+    --color-tertiary: #ED1B36;
+    --color-ink: #25283D;
+    --color-surface-soft: #F3F5FF;
+    --color-border: #E2E8F0;
+  }
+
+  body {
+    font-family: 'Be Vietnam Pro', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    color: #25283D;
+    background-color: #FBF8FF;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+.font-inter {
+  font-family: 'Inter', sans-serif;
+}
+
+/* Custom smooth scroll and scrollbar */
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f2fc;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd0f0;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #a3aae8;
+}
